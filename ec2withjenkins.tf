@@ -5,11 +5,11 @@ provider "aws" {
 }
 
 resource "aws_instance" "example" {
-        ami = "ami-efa5fe80"
+        ami = "*****"
         instance_type = "t2.micro"
         key_name = "jai_test"
-		subnet_id = "subnet-18008455"
-        security_groups = ["sg-74f26f1f"]
+		subnet_id = "*****"
+        security_groups = ["**********"]
 		associate_public_ip_address = "true"
         tags {
          Name = "terraform-instance"
