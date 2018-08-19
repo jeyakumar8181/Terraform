@@ -4,7 +4,7 @@ provider "aws" {
         region = "ap-south-1"
 }
 
-resource "aws_instance" "example" {
+resource "aws_instance" "exampl" {
         ami = "*****"
         instance_type = "t2.micro"
         key_name = "jai_test"
